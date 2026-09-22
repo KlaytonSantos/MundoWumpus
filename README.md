@@ -109,22 +109,6 @@ A organização do projeto busca separar os principais componentes do jogo, incl
 * **Sistema de pontuação** — controla a pontuação obtida durante a exploração.
 * **Elementos do mapa** — representam perigos, ouro e demais componentes do ambiente.
 
-## 🚧 Desenvolvimento
-
-O projeto encontra-se em desenvolvimento e novas funcionalidades podem ser adicionadas ao longo da evolução do jogo.
-
-Entre as possibilidades de expansão estão:
-
-* 🎬 Tela inicial
-* 🎯 Seleção de fases
-* 🔄 Reinício do jogo
-* 📈 Diferentes níveis de dificuldade
-* 🗺️ Novos mapas
-* 🤖 Aprimoramento da inteligência do agente
-* 🎮 Modo de controle manual
-* 🏅 Melhorias no sistema de pontuação
-* 🎨 Aprimoramentos visuais e de interface
-
 ## 👨‍💻 Autor
 
 **Klayton Marcos Corrêa dos Santos**
