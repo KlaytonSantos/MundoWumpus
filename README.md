@@ -86,4 +86,51 @@ Também é possível abrir o projeto diretamente em uma IDE compatível com Mave
 
 ## 🕹️ Como jogar
 
-O agente pode explorar o map
+O agente pode explorar o mapa de forma autônoma.
+
+Durante a exploração, diferentes percepções indicam possíveis perigos:
+
+| Percepção | Significado                          |
+| --------- | ------------------------------------ |
+| 💨 Brisa  | Existe um poço em uma casa adjacente |
+| 👹 Wumpus | O Wumpus está próximo                |
+| ✨ Brilho  | O ouro está na casa atual            |
+| 🪙 Ouro   | O agente pode coletar o ouro         |
+
+O objetivo é **encontrar o ouro e retornar à posição inicial**, evitando os perigos existentes no mapa.
+
+## 📁 Estrutura do projeto
+
+A organização do projeto busca separar os principais componentes do jogo, incluindo:
+
+* **Agente** — responsável pelo comportamento e movimentação do personagem.
+* **Mundo** — responsável pelo ambiente e elementos do mapa.
+* **MapaView** — responsável pela representação visual do mundo.
+* **Sistema de pontuação** — controla a pontuação obtida durante a exploração.
+* **Elementos do mapa** — representam perigos, ouro e demais componentes do ambiente.
+
+## 🚧 Desenvolvimento
+
+O projeto encontra-se em desenvolvimento e novas funcionalidades podem ser adicionadas ao longo da evolução do jogo.
+
+Entre as possibilidades de expansão estão:
+
+* 🎬 Tela inicial
+* 🎯 Seleção de fases
+* 🔄 Reinício do jogo
+* 📈 Diferentes níveis de dificuldade
+* 🗺️ Novos mapas
+* 🤖 Aprimoramento da inteligência do agente
+* 🎮 Modo de controle manual
+* 🏅 Melhorias no sistema de pontuação
+* 🎨 Aprimoramentos visuais e de interface
+
+## 👨‍💻 Autor
+
+**Klayton Marcos Corrêa dos Santos**
+
+Estudante de **Sistemas de Informação**.
+
+---
+
+⭐ Projeto desenvolvido para fins acadêmicos e de aprendizado em Java, JavaFX e Inteligência Artificial.
